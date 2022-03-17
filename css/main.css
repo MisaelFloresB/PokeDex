@@ -1,0 +1,31 @@
+:root{
+    --theme-color: white;
+    --pokedex-color: #E71D23;
+    --buttons-color: black;
+    --text-color: white;
+    --inverse-text-color: black;
+    --screen-main-color: rgb(72, 133, 245);
+
+}
+
+html{
+    scroll-behavior: smooth; /*suaviza el scroll de las secciones */
+}
+
+
+body {
+    background-color: var(--pokedex-color);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-inverse-text-color);
+    padding-top: 45px;
+}
+
+
+@media (min-width: 950px){
+    body {
+        background-color: var(--theme-color);
+        display: flex;
+        justify-content: center;
+    }
+
+}

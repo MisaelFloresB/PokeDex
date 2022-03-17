@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+
+    <!--Inician links de estilos-->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/pokedex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+
+    
+    
+</head>
+
+<body>
+
+    <!--Inicia input para busqueda de pokemons en pokedex-->
+    <section class="InputPokedex">
+        <div class="imgFont">
+            <img src="./css/imagenes/pokemon.png" alt="">
+            
+        </div>
+        <div class="conteinerPokedex">
+            <div class="conteinerPokedexGeneral">
+                <div class="conteinerPokedexSearch">
+                    <div class="conteinerPokedexInfoPrincipal">
+    
+                        <div class="conteinerPokedexImage">
+                            <img src="./css/imagenes/pokeball.png" class="pokeImage" id="pokeImg" alt="Imagen del Pokemon" width="150px">
+                        </div>
+                        <div class="conteinerPokedexPokeName">
+                            <span class="pokemonName" id="pokemonName"></span>
+                            <span class="pokemonNumber" id="pokemonNumber"></span>
+                        </div>
+                        <div class="pokedexPokeType">
+                            <span class="pokeTypeOne"></span>
+                        </div>
+        
+                        <!-- <div class="conteinerPokedexButton">
+                            <button onclick="fetchPokemon()" class="PokeSearch"><img class="imgSearch" src="./css/imagenes/lupa.png" alt="buscar"></button>
+                        </div> -->
+                        <div class="pokeStats">
+                            <span class="pokePs"></span>
+                            <span class="pokeAtk"></span>
+                            <span class="pokeDef"></span>
+                            <span class="pokeSpAtk"></span>
+                            <span class="pokeSpDef"></span>
+                            <span class="pokeSpeed"></span>
+                        </div>
+
+                        <div class="left-container__controllers">
+                            <div class="controllers__d-pad">
+                              <div class="d-pad__cell top"></div>
+                              <div class="d-pad__cell left"></div>
+                              <div class="d-pad__cell middle"></div>
+                              <div class="d-pad__cell right"></div>
+                              <div class="d-pad__cell bottom"></div>
+                            </div>
+                            <div class="controllers__buttons">
+                              <div class="buttons__button">B</div>
+                              <div class="buttons__button">A</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="searchPokemon">
+                    <input type="text" class="inSearch" placeholder="Ingresa tu Pokemon" id="pokeName" name="pokeName">
+                    <button onclick="fetchPokemon()" class="PokeSearch"><img class="imgSearch" src="./css/imagenes/lupa.png" alt="buscar"></button>
+                </div>
+
+            </div>
+            <div class="conteinerPokedexInfo">
+                <div class="left-container__top-section">
+                    <div class="top-section__blue"></div>
+                    <div class="top-section__small-buttons">
+                      <div class="top-section__red"></div>
+                      <div class="top-section__yellow"></div>
+                      <div class="top-section__green"></div>
+                    </div>
+                </div>
+                <div class="conteinerPokedexInfoBlack">
+                    <div class="conteinerPokedexInfoScreen">
+                        
+                        <div class="pokeMoves">
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            <div class="move"></div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+                
+
+            </div>
+            
+
+            
+
+        </div>
+        <div class="imgBootom">
+            <img class="pika" src="./css/imagenes/pika.png" alt="">
+            
+        </div>
+
+    </section>
+    
+</body>
+<!--Inician scrips a utilizar-->
+<footer>
+    <script src="./js/app.js"></script>
+</footer>
+</html>
