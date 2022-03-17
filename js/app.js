@@ -44,8 +44,7 @@ const fetchPokemon = () => {
         console.log(pokeImg);
         // Se manda a llamar a la funcion PokeImage y se le pone el valor de pokeImg
         pokeImage(pokeImg);
-        namePokemon.textContent = data.name;
-        numberPokemon.textContent = "#" + data.id;
+        namePokemon.textContent = `# ${data.id} ${data.name}` ;
         // Condicional, si tiene dos tipos muestre dos, si tiene uno que solo muestre uno
         if(data.types == 2){
             typePokemonOne.textContent = `Type: ${data.types[0]['type']['name']}, ${data.types[1]['type']['name']}`;
