@@ -135,32 +135,76 @@
 .controllers__buttons{
     display: none;
 }
-.imgFont{
-    display: none;
-}
-.imgBootom{
-    display: none;
-}
 
 @media (min-width: 950px){
     .imgFont{
         display: flex;
         height: 184px;
         width: 400px;
-        margin-left: 345px;
+       margin: auto;
     }
-    .imgBootom{
-        display: flex;
-        height: 400px;
+    .imgFont1{
+        justify-content: center;
+        height: 184px;
         width: 400px;
-        margin-left: 470px;
+        margin: auto;
+
+    }
+    .imgBottom{
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        margin: auto;
+    }
+    .pika{
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        margin-left: 40px;
+
+    }
+    .pokeTop{
+        display: flex;
+        justify-content: baseline;
+        height: 100%;
+        width: 100%;
+        background: black;
+        margin: auto;
+        margin-top: 0;
+    }
+    .poketop2{
+        display: block;
+        height: 50%;
+        width: 100%;
+        background: #E71D23;
+        margin: auto;
+
+    }
+    .BottomContainer{
+        display: block;
+    }
+    .pokeBottom{
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        background: #E71D23;
+        margin-top: 20px;
+    }
+    .pokeBottom2{
+        height: 50%;
+        width: 100%;
+        background: black;
+        margin: auto;
+        justify-content:center ;
+
     }
     .conteinerPokedex{
-        background: white;
+        background: whitesmoke;
         display: flex;
         justify-content: center;
         margin: auto;
-        margin-top: 10px;
+        margin-top: 15px;
     
     }
     
@@ -172,7 +216,7 @@
         background: #E71D23;
         height: 565px;
         padding: 25px;
-        width: 565px;
+        width: 365px;
         border-color: black;
         border-style: solid;
         border-top:none ;
@@ -192,7 +236,7 @@
     
     .conteinerPokedexInfoPrincipal{
     
-        background: whitesmoke;
+        background: white;
         border-radius: 15px;
         display: block;
         height: 318px;
@@ -244,7 +288,7 @@
         align-items: center;
         display: flex;
         justify-content: space-around;
-        margin: 190px 25px 0;
+        margin: 90px 25px 0;
       }
       
       .controllers__d-pad {
@@ -372,7 +416,7 @@
         background: #E71D23;
         height: 565px;
         padding: 25px;
-        width: 565px;
+        width: 365px;
       
       }
     

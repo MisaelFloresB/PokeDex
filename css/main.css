@@ -1,5 +1,5 @@
 :root{
-    --theme-color: white;
+    --theme-color: whitesmoke;
     --pokedex-color: #E71D23;
     --buttons-color: black;
     --text-color: white;
@@ -24,7 +24,7 @@ body {
 @media (min-width: 950px){
     body {
         background-color: var(--theme-color);
-        display: flex;
+        display: block;
         justify-content: center;
     }
 
