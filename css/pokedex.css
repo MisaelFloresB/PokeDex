@@ -136,6 +136,58 @@
     display: none;
 }
 
+.pokeTop{
+    display: flex;
+    justify-content: baseline;
+    height: 0%;
+    width: 0%;
+    background: black;
+    margin: auto;
+    margin-top: 0;
+}
+.poketop2{
+    display: block;
+    height: 0%;
+    width: 0%;
+    background: #E71D23;
+    margin: auto;
+
+}
+
+.imgFont{
+    display: flex;
+    height: 0px;
+    width: 0px;
+    margin: auto;
+}
+.imgFont1{
+    display: flex;
+    justify-content: center;
+    height: 0px;
+    width: 0px;
+    max-width: 0%;
+    margin: auto;
+
+}
+
+.BottomContainer{
+    display: block;
+}
+
+.imgBottom{
+    justify-content: center;
+    height: 0px;
+    width: 0px;
+    margin: auto;
+}
+.pika{
+    justify-content: center;
+    height: 0px;
+    width: 0px;
+    margin: auto;
+    margin-left: 40px;
+}
+
 @media (min-width: 950px){
     .imgFont{
         display: flex;
@@ -144,24 +196,11 @@
        margin: auto;
     }
     .imgFont1{
+        display: flex;
         justify-content: center;
         height: 184px;
         width: 400px;
         margin: auto;
-
-    }
-    .imgBottom{
-        justify-content: center;
-        height: 200px;
-        width: 200px;
-        margin: auto;
-    }
-    .pika{
-        justify-content: center;
-        height: 200px;
-        width: 200px;
-        margin: auto;
-        margin-left: 40px;
 
     }
     .pokeTop{
@@ -183,6 +222,22 @@
     }
     .BottomContainer{
         display: block;
+    }
+    .imgBottom{
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        margin: auto;
+    }
+    .pika{
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        margin-left: 40px;
+
     }
     .pokeBottom{
         justify-content: center;
